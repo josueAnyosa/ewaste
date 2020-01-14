@@ -12,7 +12,7 @@ var environment = ["img1.jpg", "img1.jpg", "img2.jpg", "img2.jpg", "img3.jpg", "
     "img5.jpg", "img5.jpg", "img6.jpg", "img6.jpg",
     "img7.jpeg", "img7.jpeg", "img8.jpg", "img8.jpg","img9.jpg", "img9.jpg","img10.jpg", "img10.jpg"];
 var names = ["ewaste1", "ewaste1", "ewaste2", "ewaste2", "ewaste3", "ewaste3", "ewaste4", "ewaste4", "ewaste5", "ewaste5",
-    "ewaste6", "ewaste6", "ewaste7", "ewaste8", "ewaste8", "ewaste9", "ewaste9","ewaste10", "ewaste10","ewaste11", "ewaste11"];
+    "ewaste6", "ewaste6", "ewaste7", "ewaste7", "ewaste8", "ewaste8", "ewaste9", "ewaste9","ewaste10", "ewaste10","ewaste11", "ewaste11"];
 for (var i = 0; i < values.length; i++) {
     values[i] = '<img class= image_tile src="memory_tiles/' + environment[i] +'" alt="' + names[i] + '">';
 }
